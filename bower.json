@@ -1,0 +1,10 @@
+{
+  "name": "bespoke-flyswatter",
+  "main": "./dist/bespoke-flyswatter.js",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "bespoke.js": ">=1.0.0"
+  }
+}

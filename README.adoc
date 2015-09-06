@@ -1,0 +1,82 @@
+= bespoke-flyswatter
+Dan Allen <https://github.com/mojavelinux>
+// Settings:
+:idprefix:
+:idseparator: -
+ifdef::env-github[:badges:]
+// URIs:
+:uri-raw-file-base: https://raw.githubusercontent.com/opendevise/bespoke-flyswatter/master
+
+ifdef::badges[]
+image:https://img.shields.io/npm/v/bespoke-flyswatter.svg[npm package, link=https://www.npmjs.com/package/bespoke-flyswatter]
+image:https://img.shields.io/travis/opendevise/bespoke-flyswatter/master.svg[Build Status (Travis CI), link=https://travis-ci.org/opendevise/bespoke-flyswatter]
+endif::[]
+
+“You don’t want the mouse pointer to be hanging there on the slide, where you left it, like the gross house fly.” - Marcin Wichary
+
+This plugin takes care of that problem for you.
+After a configurable timeout (default: 1s), the mouse cursor will disappear, never to be heard from again (until you move the mouse).
+
+== Download
+
+Download the {uri-raw-file-base}/dist/bespoke-flyswatter.min.js[production mode version] or the {uri-raw-file-base}/dist/bespoke-flyswatter.js[development mode version], or use a <<package-managers,package manager>>.
+
+== Example
+
+//http://opendevise.github.io/bespoke-flyswatter[View the demo] online.
+
+This repository includes a demo folder the shows this plugin in action.
+To view it locally, you first need to clone this repository:
+
+ $ git clone https://github.com/opendevise/bespoke-flyswatter && cd bespoke-flyswatter
+
+Next, install the dependencies inside the project folder using npm:
+
+ $ npm install
+
+Finally, visit the file [path]_demo/index.html_ in your browser to see the plugin in action.
+
+== Usage
+
+This plugin is shipped in a https://github.com/umdjs/umd[UMD format], meaning it is available as a CommonJS/AMD module or as a browser global.
+
+For example, when using CommonJS modules:
+
+```js
+var bespoke = require('bespoke'),
+  flyswatter = require('bespoke-flyswatter');
+
+bespoke.from('.deck', [
+  flyswatter()
+]);
+```
+
+When using a browser global:
+
+```js
+bespoke.from('.deck', [
+  bespoke.plugins.flyswatter()
+]);
+```
+
+== Package managers
+
+=== npm
+
+```bash
+$ npm install bespoke-flyswatter
+```
+
+=== Bower
+
+```bash
+$ bower install bespoke-flyswatter
+```
+
+== Credits
+
+This plugin was built with https://github.com/markdalgleish/generator-bespokeplugin[generator-bespokeplugin].
+
+== License
+
+http://en.wikipedia.org/wiki/MIT_License[MIT License]
