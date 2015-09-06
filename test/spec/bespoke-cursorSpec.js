@@ -1,9 +1,9 @@
 Function.prototype.bind = Function.prototype.bind || require('function-bind');
 
 var bespoke = require('bespoke'),
-  flyswatter = require('../../lib/bespoke-flyswatter.js');
+  cursor = require('../../lib/bespoke-cursor.js');
 
-describe('bespoke-flyswatter', function() {
+describe('bespoke-cursor', function() {
 
   var deck,
     createDeck = function(opts) {
@@ -16,7 +16,7 @@ describe('bespoke-flyswatter', function() {
       document.body.appendChild(parent);
 
       deck = bespoke.from(parent, [
-        flyswatter(opts)
+        cursor(opts)
       ]);
     },
     destroyDeck = function() {

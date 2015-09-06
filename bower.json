@@ -1,6 +1,6 @@
 {
-  "name": "bespoke-flyswatter",
-  "main": "./dist/bespoke-flyswatter.js",
+  "name": "bespoke-cursor",
+  "main": "./dist/bespoke-cursor.js",
   "ignore": [
     "**/.*"
   ],

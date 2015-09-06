@@ -36,10 +36,10 @@ gulp.task('test', function(done) {
 });
 
 gulp.task('compile', ['clean'], function() {
-  return browserify({ standalone: 'bespoke.plugins.flyswatter' })
-    .add('./lib/bespoke-flyswatter.js')
+  return browserify({ standalone: 'bespoke.plugins.cursor' })
+    .add('./lib/bespoke-cursor.js')
     .bundle()
-    .pipe(source('bespoke-flyswatter.js'))
+    .pipe(source('bespoke-cursor.js'))
     .pipe(buffer())
     .pipe(header([
       '/*!',
@@ -50,7 +50,7 @@ gulp.task('compile', ['clean'], function() {
       ' */\n\n'
     ].join('\n'), pkg))
     .pipe(gulp.dest('dist'))
-    .pipe(rename('bespoke-flyswatter.min.js'))
+    .pipe(rename('bespoke-cursor.min.js'))
     .pipe(uglify())
     .pipe(header([
       '/*! <%= name %> v<%= version %> ',

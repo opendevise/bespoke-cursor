@@ -1,17 +1,17 @@
 {
-  "name": "bespoke-flyswatter",
+  "name": "bespoke-cursor",
   "version": "1.0.0",
   "description": "A plugin for Bespoke.js that makes the mouse cursor disappear appear after a configurable period of time.",
-  "homepage": "https://github.com/opendevise/bespoke-flyswatter",
-  "bugs": "https://github.com/opendevise/bespoke-flyswatter/issues",
+  "homepage": "https://github.com/opendevise/bespoke-cursor",
+  "bugs": "https://github.com/opendevise/bespoke-cursor/issues",
   "author": {
     "name": "Dan Allen",
     "url": "https://github.com/mojavelinux"
   },
-  "main": "./lib/bespoke-flyswatter.js",
+  "main": "./lib/bespoke-cursor.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/opendevise/bespoke-flyswatter.git"
+    "url": "git://github.com/opendevise/bespoke-cursor.git"
   },
   "scripts": {
     "test": "gulp"
