@@ -54,5 +54,5 @@
   "keywords": [
     "bespoke-plugin"
   ],
-  "readme": "..."
+  "readme": "# bespoke-cursor\n\nA plugin for Bespoke.js that makes the mouse cursor disappear appear after a configurable period of time.\n\n## Usage\n\nThis plugin is shipped in a [UMD format](https://github.com/umdjs/umd), meaning it is available as a CommonJS/AMD module or as a browser global.\n\nFor example, when using CommonJS modules:\n\n```js\nvar bespoke = require('bespoke'),\n  cursor = require('bespoke-cursor');\n\nbespoke.from('.deck', [\n  cursor()\n]);\n```\n\nWhen using browser globals:\n\n```js\nbespoke.from('.deck', [\n  bespoke.plugins.cursor()\n]);\n```\n\nFor more information about options and how the plugin works, see the [complete README](https://github.com/opendevise/bespoke-cursor/blob/master/README.adoc).\n\n## License\n\n[MIT License](http://en.wikipedia.org/wiki/MIT_License)\n"
 }
