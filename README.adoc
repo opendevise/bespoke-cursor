@@ -12,7 +12,8 @@ image:https://img.shields.io/npm/v/bespoke-flyswatter.svg[npm package, link=http
 image:https://img.shields.io/travis/opendevise/bespoke-flyswatter/master.svg[Build Status (Travis CI), link=https://travis-ci.org/opendevise/bespoke-flyswatter]
 endif::[]
 
-“You don’t want the mouse pointer to be hanging there on the slide, where you left it, like the gross house fly.” - Marcin Wichary
+"You don’t want the mouse pointer to be hanging there on the slide, where you left it, like the gross house fly."
+-- Marcin Wichary
 
 This plugin takes care of that problem for you.
 After a configurable timeout (default: 1s), the mouse cursor will disappear, never to be heard from again (until you move the mouse).
