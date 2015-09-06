@@ -17,10 +17,6 @@ endif::[]
 This plugin takes care of that problem for you.
 After a configurable timeout (default: 1s), the mouse cursor will disappear, never to be heard from again (until you move the mouse).
 
-== Download
-
-Download the {uri-raw-file-base}/dist/bespoke-flyswatter.min.js[production mode version] or the {uri-raw-file-base}/dist/bespoke-flyswatter.js[development mode version], or use a <<package-managers,package manager>>.
-
 == Example
 
 //http://opendevise.github.io/bespoke-flyswatter[View the demo] online.
@@ -35,6 +31,18 @@ Next, install the dependencies inside the project folder using npm:
  $ npm install
 
 Finally, visit the file [path]_demo/index.html_ in your browser to see the plugin in action.
+
+== Download
+
+Download the {uri-raw-file-base}/dist/bespoke-flyswatter.min.js[production mode version] or the {uri-raw-file-base}/dist/bespoke-flyswatter.js[development mode version], or use a package manager.
+
+=== npm
+
+ $ npm install bespoke-flyswatter
+
+=== Bower
+
+ $ bower install bespoke-flyswatter
 
 == Usage
 
@@ -57,20 +65,6 @@ When using a browser global:
 bespoke.from('.deck', [
   bespoke.plugins.flyswatter()
 ]);
-```
-
-== Package managers
-
-=== npm
-
-```bash
-$ npm install bespoke-flyswatter
-```
-
-=== Bower
-
-```bash
-$ bower install bespoke-flyswatter
 ```
 
 == Credits
