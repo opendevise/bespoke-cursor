@@ -20,7 +20,7 @@ After a configurable timeout (default: 1s), the mouse cursor will disappear, nev
 
 == Example
 
-//http://opendevise.github.io/bespoke-cursor[View the demo] online.
+http://opendevise.github.io/bespoke-cursor[View the demo] online.
 
 This repository includes a demo folder the shows this plugin in action.
 To view it locally, you first need to clone this repository:
