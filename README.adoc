@@ -12,11 +12,11 @@ image:https://img.shields.io/npm/v/bespoke-cursor.svg[npm package, link=https://
 image:https://img.shields.io/travis/opendevise/bespoke-cursor/master.svg[Build Status (Travis CI), link=https://travis-ci.org/opendevise/bespoke-cursor]
 endif::[]
 
-"You don’t want the mouse pointer to be hanging there on the slide, where you left it, like the gross house fly."
+"You don’t want the mouse pointer hanging there on the slide, where you left it, like the gross house fly."
 -- Marcin Wichary
 
 This plugin takes care of that problem for you.
-After a configurable timeout (default: 1s), the mouse cursor will disappear, never to be heard from until you move the mouse again.
+After a configurable timeout (default: 1000ms), the mouse cursor will disappear, never to be heard from again until you move the mouse.
 
 == Example
 
@@ -68,9 +68,23 @@ bespoke.from('.deck', [
 ]);
 ```
 
-== Credits
+=== Options
 
-This plugin was built with https://github.com/markdalgleish/generator-bespokeplugin[generator-bespokeplugin].
+The following options are available when registering the bespoke-cursor plugin:
+
+timeout _(type: integer, default: 1000)_::
+The duration in milliseconds the cursor will remain visible after the last mouse movement.
+After this time has elapsed, the cursor will disappear.
+
+=== Options example
+
+Here's an example showing the options in use:
+
+```
+bespoke.from('.deck', [
+  cursor({timeout: 2000})
+]);
+```
 
 == License
 
