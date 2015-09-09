@@ -58,6 +58,14 @@ p {
   border: 1px solid rgba(0,0,0,0.1);
   box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
   padding: 1em;
+  display: -webkit-flex;
+          display: flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-flex-direction: column;
+          flex-direction: column;
   -webkit-transition: all 0.3s ease;
      -moz-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
@@ -69,4 +77,9 @@ p {
   opacity: 1;
   pointer-events: auto;
   z-index: 1;
+}
+
+/* assign cursor to verify it still disappears */
+h1 {
+  cursor: default;
 }
