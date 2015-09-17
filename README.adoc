@@ -84,7 +84,7 @@ Here's an example showing the options in use:
 
 ```
 bespoke.from('.deck', [
-  cursor({timeout: 2000})
+  cursor({ timeout: 2000 })
 ]);
 ```
 
