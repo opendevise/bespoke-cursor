@@ -1,5 +1,5 @@
 /*!
- * bespoke-cursor v1.0.3
+ * bespoke-cursor v1.0.4-dev
  *
  * Copyright 2015, Dan Allen
  * This content is released under the MIT license

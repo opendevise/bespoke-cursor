@@ -1,6 +1,6 @@
 {
   "name": "bespoke-cursor",
-  "version": "1.0.3",
+  "version": "1.0.4-dev",
   "description": "A plugin for Bespoke.js that makes the mouse cursor disappear appear after a configurable period of time.",
   "homepage": "https://github.com/opendevise/bespoke-cursor",
   "bugs": "https://github.com/opendevise/bespoke-cursor/issues",

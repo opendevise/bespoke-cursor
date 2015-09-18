@@ -1,6 +1,5 @@
 = bespoke-cursor
 Dan Allen <https://github.com/mojavelinux>
-v1.0.3
 // Settings:
 :idprefix:
 :idseparator: -
