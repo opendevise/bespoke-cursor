@@ -24,7 +24,7 @@ After a configurable timeout (default: 1000ms), the mouse cursor will disappear,
 
 http://opendevise.github.io/bespoke-cursor[View the demo] online.
 
-This repository includes a demo folder the shows this plugin in action.
+This repository includes a demo folder that shows this plugin in action.
 To view it locally, you first need to clone this repository:
 
  $ git clone https://github.com/opendevise/bespoke-cursor && cd bespoke-cursor
@@ -78,7 +78,7 @@ timeout _(type: integer, default: 1000)_::
 The duration in milliseconds the cursor will remain visible after the last mouse movement.
 After this time has elapsed, the cursor will disappear.
 
-=== Options example
+==== Options example
 
 Here's an example showing the options in use:
 
