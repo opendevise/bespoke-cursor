@@ -19,6 +19,13 @@ endif::[]
 
 This plugin takes care of that problem for you.
 After a configurable timeout (default: 1000ms), the mouse cursor will disappear, never to be heard from again until you move the mouse.
+Once the mouse is moved, the cursor will stay visible until the timeout is reached again.
+
+*There's only one catch.*
+You have to move the mouse at list once to activate this behavior.
+Fortunately, the chance of that happening is very likely as you're setting up your presentation.
+It seems the browser does not allow the mouse cursor to be hidden unless a mouse action is initiated by the user.
+So just remember to give the mouse a little nudge!
 
 == Example
 
